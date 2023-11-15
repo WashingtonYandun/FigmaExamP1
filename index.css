@@ -14,11 +14,6 @@ body {
   --h2-desktop-size: 48px;
   --h4-size: 30px;
   --h2-mobile-size: 31px;
-  --color-white: #fff;
-  --gris-oscuro: #787878;
-  --negro: #000;
-  --naranja: #f79a42;
-  --verde-primario: #15994b;
   --br-8xs: 5px;
 }
 
@@ -26,7 +21,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #47ba5d;
+  background-color: #15994b;
   width: 1548px;
   height: 747px;
 }
@@ -186,7 +181,7 @@ body {
   top: 0;
   left: 0;
   font-size: var(--h2-mobile-size);
-  color: var(--negro);
+  color: var(#000);
 }
 
 .llmanos-o-escrbenos {
@@ -227,7 +222,7 @@ body {
   width: 186px;
   height: 44px;
   text-align: left;
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .conoce-todo-aqu,
@@ -273,7 +268,7 @@ body {
   width: 166px;
   height: 47px;
   text-align: left;
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .conoce-todo-aqu-parent {
@@ -318,7 +313,7 @@ body {
   width: 161px;
   height: 43.1px;
   text-align: left;
-  color: var(--gris-oscuro);
+  color: var(#787878);
 }
 
 .entrate-de-lo-que-tenemos-parent {
@@ -336,7 +331,7 @@ body {
   width: 863px;
   height: 159px;
   text-align: center;
-  color: var(--verde-primario);
+  color: #15994b;
 }
 
 .busca-oficinas-sucursales-container {
@@ -422,7 +417,7 @@ body {
   top: 0;
   left: 344.5px;
   font-size: var(--h2-desktop-size);
-  color: var(--negro);
+  color: #000;
 }
 
 .mask-group-icon1 {
@@ -448,7 +443,7 @@ body {
   right: 0;
   bottom: 6.82%;
   border-radius: var(--br-8xs);
-  background-color: var(--naranja);
+  background-color: #f79a42;
 }
 
 .conoce-ms {
@@ -530,7 +525,7 @@ body {
   bottom: 0;
   left: 0;
   border-radius: var(--br-8xs);
-  background-color: var(--naranja);
+  background-color: #f79a42;
 }
 
 .group-container {
@@ -635,7 +630,7 @@ body {
   top: 36px;
   left: 146px;
   font-size: var(--h2-desktop-size);
-  color: var(--verde-primario);
+  color: #15994b;
 }
 
 .servicio {
@@ -723,7 +718,7 @@ body {
   height: 317px;
   text-align: center;
   font-size: var(--h3-desktop-size);
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .hero-image-child {
@@ -814,7 +809,7 @@ body {
   width: 220px;
   height: 48px;
   font-size: var(--bodycopy-size);
-  color: var(--color-white);
+  color: #fff;
 }
 
 .cuota-de-manejo-container {
@@ -823,7 +818,7 @@ body {
   left: 214px;
   font-size: var(--h1-desktop-size);
   display: inline-block;
-  color: #0c863d;
+  color: #15994b;
   width: 512px;
   height: 89px;
 }
@@ -845,7 +840,7 @@ body {
   width: 1507px;
   height: 710.7px;
   font-size: var(--h3-desktop-size);
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .zona-transaccional1 {
@@ -905,7 +900,7 @@ body {
 .zona-transaccional,
 .zona-transaccional-inner {
   left: 188px;
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .zona-transaccional {
@@ -913,7 +908,7 @@ body {
   left: 909.5px;
   width: 460px;
   text-align: center;
-  color: var(--negro);
+  color: #000;
 }
 
 .para-ti1 {
@@ -993,7 +988,7 @@ body {
   width: 200px;
   height: 20px;
   text-align: center;
-  color: var(--gris-oscuro);
+  color: #787878;
 }
 
 .nav {
@@ -1002,17 +997,17 @@ body {
   width: 1300px;
   height: 64px;
   font-size: var(--small-size);
-  color: var(--negro);
+  color: #000;
 }
 
 .desktop-1 {
   position: relative;
-  background-color: var(--color-white);
+  background-color: #fff;
   width: 100%;
   height: 3156px;
   overflow: hidden;
   text-align: left;
   font-size: var(--bodycopy-size);
-  color: var(--color-white);
+  color: #fff;
   font-family: var(--bodycopy);
 }/*# sourceMappingURL=index.css.map */

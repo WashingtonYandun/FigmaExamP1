@@ -1,3 +1,9 @@
+$verde: #15994b;
+$naranja: #f79a42;
+$negro: #000;
+$gris-oscuro: #787878;
+$color-white: #fff;
+
 body {
     margin: 0;
     line-height: normal;
@@ -13,18 +19,13 @@ body {
     --h2-desktop-size: 48px;
     --h4-size: 30px;
     --h2-mobile-size: 31px;
-    --color-white: #fff;
-    --gris-oscuro: #787878;
-    --negro: #000;
-    --naranja: #f79a42;
-    --verde-primario: #15994b;
     --br-8xs: 5px;
 }
 .footer-child {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #47ba5d;
+    background-color: $verde;
     width: 1548px;
     height: 747px;
 }
@@ -163,7 +164,7 @@ body {
     top: 0;
     left: 0;
     font-size: var(--h2-mobile-size);
-    color: var(--negro);
+    color: var($negro);
 }
 .llmanos-o-escrbenos {
     position: absolute;
@@ -199,7 +200,7 @@ body {
     width: 186px;
     height: 44px;
     text-align: left;
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .conoce-todo-aqu,
 .llmanos-o-escrbenos-parent {
@@ -240,7 +241,7 @@ body {
     width: 166px;
     height: 47px;
     text-align: left;
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .conoce-todo-aqu-parent {
     position: absolute;
@@ -280,7 +281,7 @@ body {
     width: 161px;
     height: 43.1px;
     text-align: left;
-    color: var(--gris-oscuro);
+    color: var($gris-oscuro);
 }
 .entrate-de-lo-que-tenemos-parent {
     position: absolute;
@@ -296,7 +297,7 @@ body {
     width: 863px;
     height: 159px;
     text-align: center;
-    color: var(--verde-primario);
+    color: $verde;
 }
 .busca-oficinas-sucursales-container {
     position: absolute;
@@ -372,7 +373,7 @@ body {
     top: 0;
     left: 344.5px;
     font-size: var(--h2-desktop-size);
-    color: var(--negro);
+    color: $negro;
 }
 .mask-group-icon1 {
     position: absolute;
@@ -394,7 +395,7 @@ body {
     right: 0;
     bottom: 6.82%;
     border-radius: var(--br-8xs);
-    background-color: var(--naranja);
+    background-color: $naranja;
 }
 .conoce-ms {
     top: 0;
@@ -466,7 +467,7 @@ body {
     bottom: 0;
     left: 0;
     border-radius: var(--br-8xs);
-    background-color: var(--naranja);
+    background-color: $naranja;
 }
 .group-container {
     position: absolute;
@@ -560,7 +561,7 @@ body {
     top: 36px;
     left: 146px;
     font-size: var(--h2-desktop-size);
-    color: var(--verde-primario);
+    color: $verde;
 }
 .servicio {
     margin: 0;
@@ -637,7 +638,7 @@ body {
     height: 317px;
     text-align: center;
     font-size: var(--h3-desktop-size);
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .hero-image-child {
     position: absolute;
@@ -719,7 +720,7 @@ body {
     width: 220px;
     height: 48px;
     font-size: var(--bodycopy-size);
-    color: var(--color-white);
+    color: $color-white;
 }
 .cuota-de-manejo-container {
     position: absolute;
@@ -727,7 +728,7 @@ body {
     left: 214px;
     font-size: var(--h1-desktop-size);
     display: inline-block;
-    color: #0c863d;
+    color: $verde;
     width: 512px;
     height: 89px;
 }
@@ -746,7 +747,7 @@ body {
     width: 1507px;
     height: 710.7px;
     font-size: var(--h3-desktop-size);
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .zona-transaccional1 {
     position: absolute;
@@ -798,14 +799,14 @@ body {
 .zona-transaccional,
 .zona-transaccional-inner {
     left: 188px;
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .zona-transaccional {
     top: 114px;
     left: 909.5px;
     width: 460px;
     text-align: center;
-    color: var(--negro);
+    color: $negro;
 }
 .para-ti1 {
     position: absolute;
@@ -875,7 +876,7 @@ body {
     width: 200px;
     height: 20px;
     text-align: center;
-    color: var(--gris-oscuro);
+    color: $gris-oscuro;
 }
 .nav {
     top: 29px;
@@ -883,16 +884,16 @@ body {
     width: 1300px;
     height: 64px;
     font-size: var(--small-size);
-    color: var(--negro);
+    color: $negro;
 }
 .desktop-1 {
     position: relative;
-    background-color: var(--color-white);
+    background-color: $color-white;
     width: 100%;
     height: 3156px;
     overflow: hidden;
     text-align: left;
     font-size: var(--bodycopy-size);
-    color: var(--color-white);
+    color: $color-white;
     font-family: var(--bodycopy);
 }
