@@ -1,0 +1,1018 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --bodycopy: Montserrat;
+  --font-roboto: Roboto;
+  --small-size: 14px;
+  --bodycopy-size: 16px;
+  --h1-desktop-size: 58px;
+  --h3-desktop-size: 24px;
+  --font-size-xl: 20px;
+  --h2-desktop-size: 48px;
+  --h4-size: 30px;
+  --h2-mobile-size: 31px;
+  --color-white: #fff;
+  --gris-oscuro: #787878;
+  --negro: #000;
+  --naranja: #f79a42;
+  --verde-primario: #15994b;
+  --br-8xs: 5px;
+}
+
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #47ba5d;
+  width: 1548px;
+  height: 747px;
+}
+
+.logos-icon {
+  position: absolute;
+  top: 296px;
+  left: 230px;
+  width: 1079px;
+  height: 44px;
+}
+
+.lineas-de-atencin {
+  margin: 0;
+  font-weight: 600;
+}
+
+.bogot {
+  font-family: var(--bodycopy);
+}
+
+.span,
+.span1 {
+  font-weight: 600;
+}
+
+.span1 {
+  font-family: var(--bodycopy);
+}
+
+.lineas-de-atencin-container {
+  position: absolute;
+  top: 95px;
+  left: 230px;
+  font-size: var(--bodycopy-size);
+}
+
+.conoce-ms-servicios,
+.frame-icon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.frame-icon {
+  height: 81.9%;
+  width: 5.83%;
+  top: 0;
+  right: 0;
+  bottom: 18.1%;
+  left: 94.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.conoce-ms-servicios-parent {
+  position: absolute;
+  top: 95px;
+  left: 1103px;
+  width: 206px;
+  height: 21px;
+  text-align: center;
+  font-size: var(--bodycopy-size);
+}
+
+.copyright-2021 {
+  position: absolute;
+  top: 417px;
+  left: 1085px;
+  text-align: center;
+}
+
+.footer-item {
+  position: absolute;
+  top: 410px;
+  left: 230px;
+  width: 91.6px;
+  height: 31px;
+}
+
+.logo-superintendecia-1-icon {
+  position: absolute;
+  top: 420px;
+  left: 679px;
+  width: 190px;
+  height: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gobierno,
+.para-ti,
+.para-tu-empresa,
+.sobre-nosotros {
+  position: absolute;
+  top: 95px;
+  left: 759px;
+  font-weight: 600;
+  display: inline-block;
+  width: 48px;
+  height: 21px;
+}
+
+.gobierno,
+.para-tu-empresa,
+.sobre-nosotros {
+  top: 206px;
+  width: 120px;
+  height: 20px;
+}
+
+.gobierno,
+.sobre-nosotros {
+  top: 132px;
+  width: 69px;
+  height: 21px;
+}
+
+.sobre-nosotros {
+  top: 169px;
+  width: 120px;
+}
+
+.footer {
+  position: absolute;
+  top: 2662px;
+  left: -50px;
+  width: 1548px;
+  height: 747px;
+  font-size: var(--small-size);
+}
+
+.background-icon,
+.chat-icon {
+  position: absolute;
+  top: 2622px;
+  left: 1181px;
+  width: 80px;
+  height: 80px;
+}
+
+.background-icon {
+  height: 57.75%;
+  width: 99.6%;
+  top: 33.14%;
+  right: 0.4%;
+  bottom: 9.11%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.tienes-dudas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--h2-mobile-size);
+  color: var(--negro);
+}
+
+.llmanos-o-escrbenos {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  text-decoration: underline;
+  font-weight: 600;
+  display: inline-block;
+  width: 197px;
+}
+
+.comuncate {
+  margin: 0;
+}
+
+.comuncate-con-nosotros-container {
+  position: absolute;
+  top: 2px;
+  left: 66px;
+  display: inline-block;
+  width: 120px;
+}
+
+.frame-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+
+.comuncate-con-nosotros-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 186px;
+  height: 44px;
+  text-align: left;
+  color: var(--gris-oscuro);
+}
+
+.conoce-todo-aqu,
+.llmanos-o-escrbenos-parent {
+  position: absolute;
+  top: 79px;
+  left: 3px;
+  width: 197px;
+  height: 78px;
+}
+
+.conoce-todo-aqu {
+  top: 54px;
+  left: 0;
+  text-decoration: underline;
+  font-weight: 600;
+  display: inline-block;
+  width: 198px;
+  height: 22px;
+}
+
+.informacin-de-inters-container {
+  position: absolute;
+  top: 0;
+  left: 66px;
+  display: inline-block;
+  width: 100px;
+}
+
+.frame-icon2 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+
+.informacin-de-inters-parent {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  width: 166px;
+  height: 47px;
+  text-align: left;
+  color: var(--gris-oscuro);
+}
+
+.conoce-todo-aqu-parent {
+  position: absolute;
+  top: 83px;
+  left: 314px;
+  width: 198px;
+  height: 76px;
+}
+
+.entrate-de-lo {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  text-decoration: underline;
+  font-weight: 600;
+  display: inline-block;
+  width: 237px;
+}
+
+.informacin-institucional {
+  position: absolute;
+  top: 2px;
+  left: 61px;
+  display: inline-block;
+  width: 100px;
+}
+
+.frame-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 43.1px;
+  overflow: hidden;
+}
+
+.informacin-institucional-parent {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 161px;
+  height: 43.1px;
+  text-align: left;
+  color: var(--gris-oscuro);
+}
+
+.entrate-de-lo-que-tenemos-parent {
+  position: absolute;
+  top: 76px;
+  left: 626px;
+  width: 237px;
+  height: 82px;
+}
+
+.seccion-dudasinfocontacto {
+  position: absolute;
+  top: 2360px;
+  left: 290px;
+  width: 863px;
+  height: 159px;
+  text-align: center;
+  color: var(--verde-primario);
+}
+
+.busca-oficinas-sucursales-container {
+  position: absolute;
+  top: 20px;
+  left: 188px;
+  font-weight: 600;
+  display: inline-block;
+  width: 271px;
+}
+
+.aqu {
+  position: absolute;
+  top: 89.7px;
+  left: 191px;
+  font-size: var(--bodycopy-size);
+  text-align: center;
+}
+
+.frame-icon4 {
+  position: absolute;
+  height: 5.88%;
+  width: 3.7%;
+  top: 45.62%;
+  right: 42.92%;
+  bottom: 48.51%;
+  left: 53.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.mask-group-icon {
+  height: 89.31%;
+  width: 34.14%;
+  top: 4.38%;
+  right: 63.79%;
+  bottom: 6.31%;
+  left: 2.07%;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.frame-icon5,
+.mask-group-icon,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+
+.vector-icon {
+  height: 89.02%;
+  width: 33.75%;
+  top: 5.49%;
+  right: 64.14%;
+  bottom: 5.49%;
+  left: 2.11%;
+  max-width: 100%;
+  max-height: 100%;
+  mix-blend-mode: color;
+}
+
+.frame-icon5 {
+  top: 66.7px;
+  left: 66px;
+  width: 44px;
+  height: 52.9px;
+}
+
+.seccin-buscar-oficinas {
+  position: absolute;
+  top: 2060px;
+  left: 491px;
+  width: 459px;
+  height: 207.6px;
+  font-size: var(--font-size-xl);
+}
+
+.pensando-en-ti-container {
+  position: absolute;
+  top: 0;
+  left: 344.5px;
+  font-size: var(--h2-desktop-size);
+  color: var(--negro);
+}
+
+.mask-group-icon1 {
+  position: absolute;
+  top: 187px;
+  left: 34px;
+  width: 640px;
+  height: 410px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boton-child,
+.conoce-ms {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.boton-child {
+  height: 100%;
+  top: -6.82%;
+  right: 0;
+  bottom: 6.82%;
+  border-radius: var(--br-8xs);
+  background-color: var(--naranja);
+}
+
+.conoce-ms {
+  top: 0;
+  display: inline-block;
+}
+
+.conoce-ms-wrapper,
+.frame-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 59.48%;
+  top: 0;
+  right: 40.52%;
+  bottom: 0;
+  left: 0;
+}
+
+.frame-icon6 {
+  height: 63.16%;
+  width: 11.11%;
+  top: 15.79%;
+  right: 0;
+  bottom: 21.05%;
+  left: 88.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.group-parent {
+  position: absolute;
+  height: 43.18%;
+  width: 76.5%;
+  top: 22.73%;
+  right: 12%;
+  bottom: 34.09%;
+  left: 11.5%;
+}
+
+.boton,
+.maneja-tu-dinero {
+  position: absolute;
+  left: 79px;
+}
+
+.boton {
+  top: 498px;
+  width: 200px;
+  height: 44px;
+  font-family: var(--font-roboto);
+}
+
+.maneja-tu-dinero {
+  top: 240px;
+  font-size: var(--h4-size);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 223px;
+}
+
+.mask-group-icon2 {
+  position: absolute;
+  top: 187px;
+  left: 693px;
+  width: 640px;
+  height: 410px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.boton-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--naranja);
+}
+
+.group-container {
+  position: absolute;
+  height: 43.18%;
+  width: 76.5%;
+  top: 29.55%;
+  right: 12%;
+  bottom: 27.27%;
+  left: 11.5%;
+}
+
+.boton1 {
+  position: absolute;
+  top: 470px;
+  left: 739px;
+  width: 200px;
+  height: 44px;
+  font-family: var(--font-roboto);
+}
+
+.arrow-icon,
+.frame {
+  position: absolute;
+  overflow: hidden;
+}
+
+.frame {
+  height: 2.85%;
+  width: 0.9%;
+  top: 72.86%;
+  right: 93.62%;
+  bottom: 24.29%;
+  left: 5.48%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+.arrow-icon {
+  height: 11.39%;
+  width: 5.1%;
+  top: 64.66%;
+  right: 94.9%;
+  bottom: 23.95%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.solicita-tus-certificados-container {
+  position: absolute;
+  top: 238px;
+  left: 739px;
+  font-size: var(--h4-size);
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 292px;
+}
+
+.seccion-recomendados {
+  position: absolute;
+  top: 1326px;
+  left: 146.5px;
+  width: 1333px;
+  height: 597px;
+  text-align: center;
+}
+
+.arrow-icon2,
+.separador-linea-icon {
+  position: absolute;
+  height: 2.15%;
+  width: 4.72%;
+  top: 54.25%;
+  right: 40.03%;
+  bottom: 43.6%;
+  left: 55.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.separador-linea-icon {
+  height: 0.03%;
+  width: 37.92%;
+  top: 75.44%;
+  right: 20.14%;
+  bottom: 24.52%;
+  left: 41.94%;
+}
+
+.qu-podemos-hacer {
+  position: absolute;
+  top: 0;
+  left: 229px;
+  text-align: left;
+}
+
+.productos-destacados {
+  position: absolute;
+  top: 36px;
+  left: 146px;
+  font-size: var(--h2-desktop-size);
+  color: var(--verde-primario);
+}
+
+.servicio {
+  margin: 0;
+  font-weight: 500;
+}
+
+.cuenta-de-ahorros-container,
+.servicio-al-cliente-container {
+  position: absolute;
+  top: 113px;
+  left: 0;
+  display: inline-block;
+  width: 200px;
+}
+
+.cuenta-de-ahorros-container {
+  left: 439px;
+}
+
+.frame-icon8 {
+  position: absolute;
+  height: 43.48%;
+  width: 7.61%;
+  top: 0;
+  right: 33.48%;
+  bottom: 56.52%;
+  left: 58.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.portal-empresarial,
+.tarjeta-de-crdito-container {
+  position: absolute;
+  top: 113px;
+  left: 659px;
+  display: inline-block;
+  width: 200px;
+}
+
+.tarjeta-de-crdito-container {
+  left: 220px;
+}
+
+.icono-serv-cliente,
+.serv-cliente-icon,
+.t-credito-icon {
+  position: absolute;
+  top: 6px;
+  left: 717px;
+  width: 84.3px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.icono-serv-cliente,
+.t-credito-icon {
+  top: 11px;
+  left: 276px;
+  width: 88.5px;
+}
+
+.icono-serv-cliente {
+  top: 4px;
+  left: 65px;
+  width: 70px;
+  height: 76.4px;
+}
+
+.seccin-productos-destacados,
+.servicio-al-cliente-parent {
+  position: absolute;
+  top: 156px;
+  left: 0;
+  width: 859px;
+  height: 161px;
+  font-size: var(--font-size-xl);
+}
+
+.seccin-productos-destacados {
+  top: 911px;
+  left: 291px;
+  height: 317px;
+  text-align: center;
+  font-size: var(--h3-desktop-size);
+  color: var(--gris-oscuro);
+}
+
+.hero-image-child {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #f1f1f1;
+  width: 1507px;
+  height: 622px;
+}
+
+.hero-image-item,
+.vector-icon1 {
+  position: absolute;
+  height: 2%;
+  width: 5.71%;
+  top: 74.01%;
+  right: 52.55%;
+  bottom: 23.99%;
+  left: 41.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vector-icon1 {
+  height: 80.89%;
+  width: 31.73%;
+  top: 8.85%;
+  right: 12.48%;
+  bottom: 10.26%;
+  left: 55.8%;
+}
+
+.en-tu-tarjeta,
+.pdela-ahora {
+  position: absolute;
+  top: 340px;
+  left: 214px;
+  display: inline-block;
+  width: 510px;
+  height: 25px;
+}
+
+.pdela-ahora {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.frame-icon9,
+.pdela-ahora-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 80.39%;
+  top: 0;
+  right: 19.61%;
+  bottom: 0;
+  left: 0;
+}
+
+.frame-icon9 {
+  height: 79.88%;
+  width: 11.11%;
+  top: 20.12%;
+  right: 0;
+  left: 88.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.group-div {
+  position: absolute;
+  height: 34.17%;
+  width: 76.5%;
+  top: 29.58%;
+  right: 12%;
+  bottom: 36.25%;
+  left: 11.5%;
+}
+
+.boton2 {
+  position: absolute;
+  top: 513px;
+  left: 214px;
+  width: 220px;
+  height: 48px;
+  font-size: var(--bodycopy-size);
+  color: var(--color-white);
+}
+
+.cuota-de-manejo-container {
+  position: absolute;
+  top: 189px;
+  left: 214px;
+  font-size: var(--h1-desktop-size);
+  display: inline-block;
+  color: #0c863d;
+  width: 512px;
+  height: 89px;
+}
+
+.mano-1-icon {
+  position: absolute;
+  top: 70px;
+  left: 892px;
+  width: 431px;
+  height: 611px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero-image {
+  position: absolute;
+  top: 150px;
+  left: -33px;
+  width: 1507px;
+  height: 710.7px;
+  font-size: var(--h3-desktop-size);
+  color: var(--gris-oscuro);
+}
+
+.zona-transaccional1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.empresas,
+.frame-icon10,
+.personas {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+}
+
+.empresas,
+.frame-icon10 {
+  left: 192px;
+}
+
+.frame-icon10 {
+  top: 4px;
+  left: 0;
+  width: 24px;
+  height: 32.3px;
+  overflow: hidden;
+}
+
+.frame-icon11,
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 134px;
+  width: 1px;
+  height: 41px;
+}
+
+.frame-icon11 {
+  top: 8px;
+  left: 159px;
+  width: 24px;
+  height: 22.7px;
+  overflow: hidden;
+}
+
+.personas-parent,
+.zona-transaccional,
+.zona-transaccional-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 272px;
+  height: 41px;
+}
+
+.zona-transaccional,
+.zona-transaccional-inner {
+  left: 188px;
+  color: var(--gris-oscuro);
+}
+
+.zona-transaccional {
+  top: 114px;
+  left: 909.5px;
+  width: 460px;
+  text-align: center;
+  color: var(--negro);
+}
+
+.para-ti1 {
+  position: absolute;
+  top: 7px;
+  left: 330px;
+  display: inline-block;
+  width: 48px;
+  height: 21px;
+}
+
+.gobierno1,
+.para-tu-empresa1,
+.sobre-nosotros1 {
+  position: absolute;
+  top: 8px;
+  left: 476px;
+  display: inline-block;
+  width: 120px;
+  height: 20px;
+}
+
+.gobierno1,
+.sobre-nosotros1 {
+  top: 7px;
+  left: 694px;
+  width: 69px;
+  height: 21px;
+}
+
+.sobre-nosotros1 {
+  left: 861px;
+  width: 109px;
+}
+
+.nav-child {
+  position: absolute;
+  top: 63.5px;
+  left: -0.5px;
+  border-top: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  width: 1301px;
+  height: 1px;
+}
+
+.frame-icon12,
+.logo-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 35.2px;
+}
+
+.frame-icon12 {
+  top: 2px;
+  left: 182px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.buscar1 {
+  top: 0;
+  left: 0;
+}
+
+.buscar,
+.buscar1,
+.nav {
+  position: absolute;
+}
+
+.buscar {
+  top: 8px;
+  left: 1100px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  color: var(--gris-oscuro);
+}
+
+.nav {
+  top: 29px;
+  left: 70px;
+  width: 1300px;
+  height: 64px;
+  font-size: var(--small-size);
+  color: var(--negro);
+}
+
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3156px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--bodycopy-size);
+  color: var(--color-white);
+  font-family: var(--bodycopy);
+}/*# sourceMappingURL=index.css.map */
